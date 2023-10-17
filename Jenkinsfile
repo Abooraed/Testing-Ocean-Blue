@@ -17,10 +17,13 @@ pipeline {
       steps {
         echo 'Its done'
       }
-       stage('Slimane') {
+     
+    }
+    stage('Slimane') {
       steps {
-        echo 'Its Me'
+        echo 'Testing from VS'
       }
+     
     }
 
   }
