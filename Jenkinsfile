@@ -17,6 +17,10 @@ pipeline {
       steps {
         echo 'Its done'
       }
+       stage('Slimane') {
+      steps {
+        echo 'Its Me'
+      }
     }
 
   }
